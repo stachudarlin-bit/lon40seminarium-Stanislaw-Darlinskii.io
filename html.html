@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator ułamków</title>
+  <link rel="stylesheet" href="1.css" type="text/css">
+  <script src="java.js" defer></script>
+</head>
+<body>
+  <main class="karta">
+    <h1>Operacje na ułamkach</h1>
+
+    <section class="siatka">
+      <div>
+        <label for="l1">Licznik 1</label>
+        <input id="l1" type="number" step="1" value="1">
+      </div>
+      <div>
+        <label for="m1">Mianownik 1</label>
+        <input id="m1" type="number" step="1" value="2">
+      </div>
+      <div>
+        <label for="l2">Licznik 2</label>
+        <input id="l2" type="number" step="1" value="1">
+      </div>
+      <div>
+        <label for="m2">Mianownik 2</label>
+        <input id="m2" type="number" step="1" value="3">
+      </div>
+    </section>
+
+    <section class="pojedynczy">
+      <label for="doSkrocenia">Ułamek do skrócenia (format: a/b)</label>
+      <input id="doSkrocenia" type="text" placeholder="np. 18/24">
+    </section>
+
+    <section class="przyciski">
+      <button id="dodajBtn" type="button">Dodaj</button>
+      <button id="odejmijBtn" type="button" class="drugorzędny">Odejmij</button>
+      <button id="skrocBtn" type="button" class="akcent">Skróć</button>
+    </section>
+
+    <p id="blad" class="blad"></p>
+    <p id="wynik" class="wynik">Tutaj pojawi się wynik.</p>
+  </main>
+</body>
+</html>
