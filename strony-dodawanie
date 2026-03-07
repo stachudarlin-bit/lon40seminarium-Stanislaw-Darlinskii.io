@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moje linki</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<h1>Moje strony</h1>
+
+<ul>
+<li><a href="index.html">Strona 1</a></li>
+<li><a href="html.html">Strona 2</a></li>
+</ul>
+
+</body>
+</html>
